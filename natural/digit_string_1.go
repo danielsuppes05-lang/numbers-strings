@@ -12,6 +12,32 @@ package natural
 // um den Gesamt-String einer Zahl zusammenzusetzen.
 // Diese Funktion muss nur für den Normalfall (Zahlen >= 21) funktionieren.
 func DigitString1(digit int) string {
-	// TODO
-	return ""
+	endnumber := ""
+	number := ""
+	if digit == 0 {
+		return number
+	}
+	switch digit {
+	case 1:
+		number = "ein"
+	case 2:
+		number = "zwei"
+	case 3:
+		number = "drei"
+	case 4:
+		number = "vier"
+	case 5:
+		number = "fünf"
+	case 6:
+		number = "sechs"
+	case 7:
+		number = "sieben"
+	case 8:
+		number = "acht"
+	case 9:
+		number = "neun"
+	}
+
+	endnumber = number + "und"
+	return endnumber
 }

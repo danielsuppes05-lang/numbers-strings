@@ -13,6 +13,17 @@ func ExampleNToI() {
 	// III
 }
 
+func ExampleNToX() {
+	fmt.Println(NToX(10))
+	fmt.Println(NToX(20))
+	fmt.Println(NToX(30))
+
+	//Output:
+	// X
+	// XX
+	// XXX
+}
+
 func ExampleRomanBelow10() {
 	fmt.Println(RomanBelow10(0))
 	fmt.Println(RomanBelow10(1))
